@@ -1,0 +1,38 @@
+{
+    "name": "ophp/loader",
+    "type": "library",
+    "description": "PHP Loader",
+    "keywords": ["php-framework","php5"],
+    "homepage":"https://github.com/ojullien/Ophp-Loader",
+    "readme":"README.md",
+    "time":"2015-06-03",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Olivier Jullien",
+            "homepage": "https://github.com/ojullien"
+        }
+    ],
+    "require": {
+        "php": "~5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ophp\\Loader\\": "src/"
+        }
+    },
+    "require-dev": {
+        "ext-xdebug": "*",
+        "phpunit/phpunit": "~4.6"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OphpTest\\Loader\\": "tests/src/"
+        }
+    },
+    "scripts": {
+        "testmycode": ["vendor/bin/phpunit"],
+        "sniffemycode": ["vendor/bin/phpcs --standard=phpcs.xml src;"],
+        "messmycode": ["vendor/bin/phpmd src text ./phpmd.xml"]
+    }
+}
