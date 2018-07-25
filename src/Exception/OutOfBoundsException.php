@@ -2,11 +2,11 @@
 /**
  * This file is a part of the Ophp framework
  *
- * @category Ophp-Http
+ * @category Ophp-Loader
  * @package   Exception
- * @license MIT <https://github.com/ojullien/ophp-Db/blob/master/LICENSE>
+ * @license MIT <https://github.com/ojullien/Ophp-Loader/blob/master/LICENSE>
  */
-namespace Ophp\Http\Exception;
+namespace Ophp\Loader\Exception;
 
 /**
  * Exception thrown if a value is not a valid key.

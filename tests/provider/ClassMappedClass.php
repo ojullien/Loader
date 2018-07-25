@@ -1,4 +1,6 @@
-<?php namespace oju\Loader\provider;
+<?php
+
+namespace OphpTest\Loader\provider;
 
 class ClassMappedClass
 {

@@ -3,9 +3,10 @@
 // Defines application constants -
 // -------------------------------
 define('APPLICATION_ENV', (getenv('APPLICATION_ENV') ? getenv('APPLICATION_ENV') : 'development'));
-define('APPLICATION_NAME', 'ophp-loader');
+define('APPLICATION_NAME', 'Ophp-Loader');
 define('APPLICATION_VERSION', '2015.06.03');
 define('APPLICATION_PATH', dirname(__DIR__));
+define('APPLICATION_PATH_PROVIDER', \APPLICATION_PATH . \DIRECTORY_SEPARATOR . 'tests' . \DIRECTORY_SEPARATOR . 'provider');
 
 // -------------------------------
 // Autoload                      -
