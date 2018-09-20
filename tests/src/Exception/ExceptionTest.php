@@ -1,118 +1,117 @@
 <?php
 
-namespace OphpTest\Loader\Exception;
+namespace OseilleTest\Loader\Exception;
 
 class ExceptionTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
-     * @covers \Ophp\Loader\Exception\BadFunctionCallException
+     * @covers \Oseille\Loader\Exception\BadFunctionCallException
      * @group specification
-     * @expectedException Ophp\Loader\Exception\BadFunctionCallException
+     * @expectedException Oseille\Loader\Exception\BadFunctionCallException
      */
     public function testBadFunctionCallException()
     {
-        throw new \Ophp\Loader\Exception\BadFunctionCallException( __METHOD__ );
+        throw new \Oseille\Loader\Exception\BadFunctionCallException(__METHOD__);
     }
 
     /**
-     * @covers \Ophp\Loader\Exception\BadMethodCallException
+     * @covers \Oseille\Loader\Exception\BadMethodCallException
      * @group specification
-     * @expectedException Ophp\Loader\Exception\BadMethodCallException
+     * @expectedException Oseille\Loader\Exception\BadMethodCallException
      */
     public function testBadMethodCallException()
     {
-        throw new \Ophp\Loader\Exception\BadMethodCallException( __METHOD__ );
+        throw new \Oseille\Loader\Exception\BadMethodCallException(__METHOD__);
     }
 
     /**
-     * @covers \Ophp\Loader\Exception\DomainException
+     * @covers \Oseille\Loader\Exception\DomainException
      * @group specification
-     * @expectedException Ophp\Loader\Exception\DomainException
+     * @expectedException Oseille\Loader\Exception\DomainException
      */
     public function testDomainException()
     {
-        throw new \Ophp\Loader\Exception\DomainException( __METHOD__ );
+        throw new \Oseille\Loader\Exception\DomainException(__METHOD__);
     }
 
     /**
-     * @covers \Ophp\Loader\Exception\InvalidArgumentException
+     * @covers \Oseille\Loader\Exception\InvalidArgumentException
      * @group specification
-     * @expectedException Ophp\Loader\Exception\InvalidArgumentException
+     * @expectedException Oseille\Loader\Exception\InvalidArgumentException
      */
     public function testInvalidArgumentException()
     {
-        throw new \Ophp\Loader\Exception\InvalidArgumentException( __METHOD__ );
+        throw new \Oseille\Loader\Exception\InvalidArgumentException(__METHOD__);
     }
 
     /**
-     * @covers \Ophp\Loader\Exception\LengthException
+     * @covers \Oseille\Loader\Exception\LengthException
      * @group specification
-     * @expectedException Ophp\Loader\Exception\LengthException
+     * @expectedException Oseille\Loader\Exception\LengthException
      */
     public function testLengthException()
     {
-        throw new \Ophp\Loader\Exception\LengthException( __METHOD__ );
+        throw new \Oseille\Loader\Exception\LengthException(__METHOD__);
     }
 
     /**
-     * @covers \Ophp\Loader\Exception\OutOfBoundsException
+     * @covers \Oseille\Loader\Exception\OutOfBoundsException
      * @group specification
-     * @expectedException Ophp\Loader\Exception\OutOfBoundsException
+     * @expectedException Oseille\Loader\Exception\OutOfBoundsException
      */
     public function testOutOfBoundsException()
     {
-        throw new \Ophp\Loader\Exception\OutOfBoundsException( __METHOD__ );
+        throw new \Oseille\Loader\Exception\OutOfBoundsException(__METHOD__);
     }
 
     /**
-     * @covers \Ophp\Loader\Exception\OutOfRangeException
+     * @covers \Oseille\Loader\Exception\OutOfRangeException
      * @group specification
-     * @expectedException Ophp\Loader\Exception\OutOfRangeException
+     * @expectedException Oseille\Loader\Exception\OutOfRangeException
      */
     public function testOutOfRangeException()
     {
-        throw new \Ophp\Loader\Exception\OutOfRangeException( __METHOD__ );
+        throw new \Oseille\Loader\Exception\OutOfRangeException(__METHOD__);
     }
 
     /**
-     * @covers \Ophp\Loader\Exception\OverflowException
+     * @covers \Oseille\Loader\Exception\OverflowException
      * @group specification
-     * @expectedException Ophp\Loader\Exception\OverflowException
+     * @expectedException Oseille\Loader\Exception\OverflowException
      */
     public function testOverflowException()
     {
-        throw new \Ophp\Loader\Exception\OverflowException( __METHOD__ );
+        throw new \Oseille\Loader\Exception\OverflowException(__METHOD__);
     }
 
     /**
-     * @covers \Ophp\Loader\Exception\RuntimeException
+     * @covers \Oseille\Loader\Exception\RuntimeException
      * @group specification
-     * @expectedException Ophp\Loader\Exception\RuntimeException
+     * @expectedException Oseille\Loader\Exception\RuntimeException
      */
     public function testRuntimeException()
     {
-        throw new \Ophp\Loader\Exception\RuntimeException( __METHOD__ );
+        throw new \Oseille\Loader\Exception\RuntimeException(__METHOD__);
     }
 
     /**
-     * @covers \Ophp\Loader\Exception\UnderflowException
+     * @covers \Oseille\Loader\Exception\UnderflowException
      * @group specification
-     * @expectedException Ophp\Loader\Exception\UnderflowException
+     * @expectedException Oseille\Loader\Exception\UnderflowException
      */
     public function testUnderflowException()
     {
-        throw new \Ophp\Loader\Exception\UnderflowException( __METHOD__ );
+        throw new \Oseille\Loader\Exception\UnderflowException(__METHOD__);
     }
 
     /**
-     * @covers \Ophp\Loader\Exception\UnexpectedValueException
+     * @covers \Oseille\Loader\Exception\UnexpectedValueException
      * @group specification
-     * @expectedException Ophp\Loader\Exception\UnexpectedValueException
+     * @expectedException Oseille\Loader\Exception\UnexpectedValueException
      */
     public function testUnexpectedValueException()
     {
-        throw new \Ophp\Loader\Exception\UnexpectedValueException( __METHOD__ );
+        throw new \Oseille\Loader\Exception\UnexpectedValueException(__METHOD__);
     }
-
 }

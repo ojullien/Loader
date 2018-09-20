@@ -1,12 +1,12 @@
 <?php
 
 /**
- * This file is a part of the Ophp framework
+ * This file is a part of the Oseille framework
  *
- * @package Loader
- * @license MIT <https://github.com/ojullien/Ophp-Loader/blob/master/LICENSE>
+ * @package Oseille\Loader
+ * @license MIT <https://github.com/Oseille/Loader/blob/master/LICENSE>
  */
-namespace Ophp\Loader;
+namespace Oseille\Loader;
 
 /**
  * Interface for classes that may register with the spl_autoload registry
