@@ -14,9 +14,9 @@ This package requires PHP 5.6. For specifics, please examine the package [compos
 
 You may check if your PHP and extension versions match the platform requirements using `composer diagnose` and `composer check-platform-reqs`. (This requires [Composer](https://getcomposer.org/) to be available as composer.)
 
-This package is installable and PSR-4 autoloadable via [Composer](https://getcomposer.org/) as ophp/loader. For no dev, use `composer install --no-dev` and for dev, use `composer install`.
+This package is installable and PSR-4 autoloadable via [Composer](https://getcomposer.org/) as oseille/loader. For no dev, use `composer install --no-dev` and for dev, use `composer install`.
 
-Alternatively, [download a release](https://github.com/oseille/Loader/releases), or clone this repository, then map the Ophp\Loader\ namespace to the package src/ directory.
+Alternatively, [download a release](https://github.com/oseille/Loader/releases), or clone this repository, then map the Oseille\Loader\ namespace to the package src/ directory.
 
 ## 2. Documentation
 
